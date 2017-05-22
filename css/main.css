@@ -1,1 +1,65 @@
 /* Inserta tu código aqui */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Metamorphous', cursive;
+}
+
+
+/*contenedor*/
+
+.container {
+    width: 735px;
+    margin: 0px auto;
+    min-height: 300px;
+    background-color: #f1f1f1;
+    font-family: Arial;
+    border-top: 1px solid #f1f1f1;
+}
+
+
+/*texto*/
+
+h1 {
+    margin: 50px 0px 10px 10px;
+}
+
+.division {
+    margin-left: 10px;
+    border: 2px solid #000;
+    width: 100px;
+}
+
+
+/*Imagenes*/
+
+.imagen {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.imagen .images {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+/*nth-child :The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent.*/
+
+
+/*necesito que las fotos queden separadas*/
+
+.imagen .images:nth-child(3n+3) {
+    margin-right: 0px;
+}
+
+.imagen .images p {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    color: white;
+}
